@@ -26,11 +26,7 @@ public class dane extends HttpServlet {
 
         userDataService.Create(name,sourname,address,zipCode,city,telNumber);
 
-        PasswordEncrypter psw = new PasswordEncrypter();
-        String psswd = psw.Encrypt(name);
-        PrintWriter out = response.getWriter();
 
-        out.println("imie"+ psswd);
 
     }
 

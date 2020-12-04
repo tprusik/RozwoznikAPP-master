@@ -12,10 +12,13 @@
     <title>Rozwoznik-Index</title>
 </head>
 <body>
-    <form class="indexPageMenuForm">
-        <h1>Rozwoźnik projekt testowy</h1>
-        <a href="loginForm.jsp">Panel Logowania</a><br>
-        <a href="dane.jsp">DANE</a><br>
-    </form>
+
+<form action="login" method="post">
+
+    email:<input type="text" name="password">
+    password:<input type="text" name="email">
+    <input type="submit" value="zaloguj się">
+
+</form>
 </body>
 </html>
